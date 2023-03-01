@@ -1,0 +1,18 @@
+.oddnum {
+    background-color: salmon;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.oddnum.cooler {
+    font-size: 24px;
+}
+#numtwo {
+    color: blue;
+    font-size: 36px;
+}
+
+#numfour {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

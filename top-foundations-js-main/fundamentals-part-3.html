@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+    function add7(num) {
+        console.log(num + 7);
+    }
+
+    function multiply(x, y) {
+        console.log(x * y);
+    }
+
+    // function to convert first letter of a string to uppercase
+    function capitalize(str) {
+        const capped = str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+        return capped;
+    }
+
+    // take input
+    const string = prompt("Enter a string: ");
+    const result = capitalize(string);
+    console.log(result);
+
+    // console.log the last character of a string
+    function lastLetter(str) {
+        const lastCh = str.slice(-1);
+        return lastCh;
+    }
+
+    // take input
+    const lastString = prompt("Enter a string: ");
+    const answer = lastLetter(lastString);
+    console.log(answer);
+    
+
+  </script>
+</body>
+</html>
