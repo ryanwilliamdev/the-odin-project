@@ -9,9 +9,7 @@ function getComputerChoice() {
 // create function for playerSelection
 function getPlayerChoice() {
   let playerChoiceUncapped = prompt("Choose Rock, Paper, or Scissors");
-  return (playerSelection =
-    playerChoiceUncapped.charAt(0).toUpperCase() +
-    playerChoiceUncapped.slice(1).toLowerCase());
+  return (playerSelection = playerChoiceUncapped.charAt(0).toUpperCase() + playerChoiceUncapped.slice(1).toLowerCase());
 }
 
 // create function that plays a single round of RPS, function should take two parameters (playerSelection) and (computerSelection)
